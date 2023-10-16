@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:isTransCreated="{Boolean}true"
+        cq:lastModified="{Date}2023-07-07T13:46:04.090+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastTranslationDone="{Date}2023-07-07T13:46:04.090+05:30"
+        cq:lastTranslationUpdate="{Date}2023-07-07T13:16:50.222+05:30"
+        cq:tags="[aem-software]"
+        cq:template="/conf/siteav39/settings/wcm/templates/customtemplate"
+        cq:translationJob="[/content/projects/siteav39_translationproject/siteav39_translation_project_/jcr:content/dashboard/gadgets/translationjob0]"
+        cq:translationMethod="MACHINE_TRANSLATION"
+        cq:translationProviderCloudConfig="/libs/settings/cloudconfigs/translation/msft-translation/msft_trial"
+        cq:translationProviderName="microsoft"
+        cq:translationSourcePath="/content/siteav39/us/en/article/blog15"
+        cq:translationStatus="APPROVED"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Blog15"
+        sling:resourceType="siteav39/components/indexpage">
+        <root
+            jcr:lastModified="{Date}2023-06-19T11:12:48.719+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="siteav39/components/container"
+            layout="responsiveGrid">
+            <responsivegrid
+                jcr:created="{Date}2023-06-19T11:12:27.637+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-06-19T11:12:57.438+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <blogcardcomponent
+                    jcr:created="{Date}2023-06-27T10:41:58.877+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-06-27T10:42:15.795+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="siteav39/components/customComponents/blogCardComponent"
+                    name="Blog15"
+                    profession="Blog15"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,19 @@
+ <sly data-sly-use.model="com.adobe.aem.siteav39.core.models.OnlyUsedTagsDropDownModel"/>
+<select id="dropdown" onchange="searchBlog1(0)"  multiple>
+<option value="">Select Category</option>
+<sly data-sly-list.keyName="${model.tagUsed}">
+<option value="${keyName}">${keyName}</option>
+</sly>
+</select>
+
+
+<sly data-sly-list.keyName="${model.dropDown}">
+
+<select id="${keyName}" onchange="searchBlog1(0)" multiple>
+<sly data-sly-list.options="${model.dropDown[keyName]}">
+<option value="${keyName}/${options}">
+${options}
+</option>
+</sly>
+</select>
+</sly>

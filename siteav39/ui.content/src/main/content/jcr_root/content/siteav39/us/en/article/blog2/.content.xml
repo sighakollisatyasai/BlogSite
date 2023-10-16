@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2023-06-20T12:18:34.587+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[aem-software/developer,aem-software]"
+        cq:template="/conf/siteav39/settings/wcm/templates/customtemplate"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Blog2"
+        sling:resourceType="siteav39/components/indexpage"
+        pwaCachestrategy="staleWhileRevalidate"
+        pwaDisplay="standalone"
+        pwaOrientation="any">
+        <root
+            jcr:lastModified="{Date}2023-06-19T11:12:48.719+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="siteav39/components/container"
+            layout="responsiveGrid">
+            <responsivegrid
+                jcr:created="{Date}2023-06-19T11:12:27.637+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-06-19T11:12:57.438+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <blogcardcomponent
+                    jcr:created="{Date}2023-06-19T11:22:14.371+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-06-19T16:41:33.202+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="siteav39/components/customComponents/blogCardComponent"
+                    image="/content/dam/siteav39/test1.png"
+                    name="Ravi"
+                    profession="Developer"/>
+            </responsivegrid>
+        </root>
+        <cq:featuredimage
+            jcr:lastModified="{Date}2023-06-20T12:18:34.582+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="core/wcm/components/image/v3/image"
+            altValueFromDAM="false"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2023-06-27T15:28:51.162+05:30"
+        cq:lastModifiedBy="admin"
+        cq:tags="[aem-software]"
+        cq:template="/conf/siteav39/settings/wcm/templates/customtemplate"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Blog18"
+        sling:resourceType="siteav39/components/indexpage">
+        <root
+            jcr:lastModified="{Date}2023-06-19T11:12:48.719+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="siteav39/components/container"
+            layout="responsiveGrid">
+            <responsivegrid
+                jcr:created="{Date}2023-06-19T11:12:27.637+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2023-06-19T11:12:57.438+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <blogcardcomponent
+                    jcr:created="{Date}2023-06-27T15:28:38.907+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2023-06-27T15:28:51.159+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="siteav39/components/customComponents/blogCardComponent"
+                    name="Blog18"
+                    profession="Blog18"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>

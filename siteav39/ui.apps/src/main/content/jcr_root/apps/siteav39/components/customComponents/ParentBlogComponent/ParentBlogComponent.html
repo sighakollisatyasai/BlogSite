@@ -1,0 +1,33 @@
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<sly data-sly-use.blogCard="com.adobe.aem.siteav39.core.models.ParentBlogComponentModel" />
+${blogCard.name}
+
+<p>You can have the following categories of blogs to select</p>
+
+<b>1.Enterprise</b>
+
+<b>2.Doctor</b>
+
+<b>3.Finance</b>
+<div id="test">
+<sly data-sly-list.item="${blogCard.cardData}">
+<a href="${item.blogPagePath}.html">
+<div class="blogcard">
+  <img src="${item.image}" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>${item.name}</b></h4>
+    <p>${item.profession}</p>
+
+<p>Tag:${blogCard.tagTitle}</p>
+  </div>
+</div>
+
+</div>
+
+<div id="load">
+
+</div>
+</a>
+</sly>
+<p>Total Size List :${blogCard.cardData.size}</p>
+
